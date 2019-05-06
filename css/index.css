@@ -79,6 +79,7 @@ nav {
 }
 nav a{
     text-decoration: none;
+    color: black;
 }
 .jumbo{
     margin: 20px 0px 40px 0px;
@@ -184,4 +185,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE */
+
+.about {
+    margin: 0px 20px 20px 20px;
+}
+.midNavBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+
+    width: 46.3%;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.mid-navContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    padding-top: 30px;
+}
+.midNavPic{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
 }
