@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-end;
+   margin: 30px 30px 30px 0px;
+}
+nav a{
+    text-decoration: none;
+}
+.jumbo{
+    margin: 20px 0px 40px 0px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
